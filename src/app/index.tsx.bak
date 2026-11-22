@@ -1,0 +1,6 @@
+import { Redirect } from "expo-router";
+
+export default function Index() {
+  // Pengalihan instan ke rute /tabs
+  return <Redirect href="/tabs" />;
+}
