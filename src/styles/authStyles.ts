@@ -24,7 +24,7 @@ export const authStyles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         marginBottom: 18,
-        shadowColor: "#9e0856",
+        shadowColor: "#088f9e",
         shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.05,
         shadowRadius: 6,
@@ -48,7 +48,7 @@ export const authStyles = StyleSheet.create({
     title: {
         fontSize: 24,
         fontWeight: "800",
-        color: "#9e0856",
+        color: "#088f9e",
         letterSpacing: -0.3,
         textAlign: "center",
     },
@@ -78,7 +78,7 @@ export const authStyles = StyleSheet.create({
     label: {
         fontSize: 13,
         fontWeight: "600",
-        color: "#9e0856",
+        color: "#088f9e",
         marginBottom: 7,
     },
     inputWrapper: {
@@ -93,7 +93,7 @@ export const authStyles = StyleSheet.create({
     },
     inputWrapperFocused: {
         backgroundColor: "#FFFFFF",
-        borderColor: "#9e0856",
+        borderColor: "#088f9e",
     },
     inputIcon: {
         marginRight: 10,
@@ -101,7 +101,7 @@ export const authStyles = StyleSheet.create({
     input: {
         flex: 1,
         fontSize: 14,
-        color: "#9e0856",
+        color: "#088f9e",
     },
     eyeButton: {
         paddingLeft: 8,
@@ -114,18 +114,21 @@ export const authStyles = StyleSheet.create({
     },
     primaryButton: {
         flexDirection: "row",
-        backgroundColor: "#9e0856",
+        backgroundColor: "#088f9e",
         borderRadius: 14,
         height: 52,
         justifyContent: "center",
         alignItems: "center",
         gap: 8,
         marginTop: 6,
-        shadowColor: "#9e0856",
+        shadowColor: "#088f9e",
         shadowOffset: { width: 0, height: 6 },
         shadowOpacity: 0.25,
         shadowRadius: 12,
         elevation: 4,
+    },
+    primaryButtonDisabled: {
+        opacity: 0.65,
     },
     primaryButtonText: {
         color: "#FFFFFF",
@@ -161,6 +164,6 @@ export const authStyles = StyleSheet.create({
     footerLink: {
         fontSize: 13.5,
         fontWeight: "700",
-        color: "#9e0856",
+        color: "#088f9e",
     },
 });
